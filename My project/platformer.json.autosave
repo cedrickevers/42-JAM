@@ -468,6 +468,15 @@
         "name": "shadedDark09.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hole-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hole-1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -477,18 +486,18 @@
   "variables": [],
   "layouts": [
     {
-      "b": 247,
+      "b": 0,
       "disableInputWhenNotFocused": true,
       "mangledName": "Game",
       "name": "Game",
       "oglFOV": 90,
       "oglZFar": 500,
       "oglZNear": 1,
-      "r": 208,
+      "r": 0,
       "standardSortMethod": false,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
-      "v": 244,
+      "v": 0,
       "uiSettings": {
         "grid": false,
         "gridB": 255,
@@ -500,7 +509,7 @@
         "gridWidth": 70,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.5306
+        "zoomFactor": 0.8666
       },
       "objectsGroups": [
         {
@@ -1865,6 +1874,21 @@
           "x": 1890,
           "y": 350,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": -90,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "HoleLight",
+          "width": 0,
+          "x": 461.711,
+          "y": 396.69,
+          "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3667,6 +3691,78 @@
               ]
             }
           ]
+        },
+        {
+          "additive": false,
+          "alphaParam": "Mutable",
+          "angleParam": "Mutable",
+          "blueParam": "Random",
+          "destroyWhenNoParticles": true,
+          "emissionEditionSimpleMode": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 90,
+          "emitterForceMax": 100,
+          "emitterForceMin": 45,
+          "emitterXDirection": 0,
+          "emitterYDirection": 1,
+          "emitterZDirection": 0,
+          "flow": 45,
+          "friction": 2,
+          "gravityEditionSimpleMode": true,
+          "greenParam": "Random",
+          "maxParticleNb": 300,
+          "name": "HoleLight",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": 0,
+          "particleAngle2": 0,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 51,
+          "particleBlue2": 0,
+          "particleEditionSimpleMode": true,
+          "particleGravityX": 0,
+          "particleGravityY": 0,
+          "particleGravityZ": 0,
+          "particleGreen1": 51,
+          "particleGreen2": 255,
+          "particleLifeTimeMax": 2.5,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 255,
+          "particleRed2": 255,
+          "particleSize1": 100,
+          "particleSize2": 100,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "redParam": "Enabled",
+          "rendererParam1": 50,
+          "rendererParam2": 1,
+          "rendererType": "Line",
+          "sizeParam": "Mutable",
+          "tags": "",
+          "tank": -1,
+          "textureParticleName": "",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 3,
+          "variables": [
+            {
+              "name": "intensity",
+              "value": "1000"
+            }
+          ],
+          "behaviors": []
+        },
+        {
+          "height": 32,
+          "name": "Hole",
+          "tags": "",
+          "texture": "Hole-1.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -3694,6 +3790,16 @@
               },
               "parameters": [
                 "PlayerHitBox"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "HoleLight"
               ],
               "subInstructions": []
             }
@@ -4509,7 +4615,7 @@
   ],
   "externalEvents": [
     {
-      "associatedLayout": "New scene",
+      "associatedLayout": "Game",
       "lastChangeTimeStamp": 1383154438,
       "name": "EnemiesManagement",
       "events": [
@@ -5063,7 +5169,7 @@
       ]
     },
     {
-      "associatedLayout": "New scene",
+      "associatedLayout": "Game",
       "lastChangeTimeStamp": 1383151997,
       "name": "ObjectsManagement",
       "events": [
@@ -5213,6 +5319,40 @@
               "parameters": [
                 "Coin",
                 "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Player",
+                "HoleLight",
+                "250",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "HoleLight",
+                ""
               ],
               "subInstructions": []
             }
