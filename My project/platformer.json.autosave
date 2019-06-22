@@ -13,7 +13,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.platformer",
-    "projectFile": "/home/user/GITS/KIDBURGLAR/42-JAM/My project/platformer.json",
+    "projectFile": "C:\\Users\\Miakisturbo\\Desktop\\test-jam\\42-JAM\\My project\\platformer.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -509,7 +509,7 @@
         "gridWidth": 70,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.8666
+        "zoomFactor": 0.3386
       },
       "objectsGroups": [
         {
@@ -569,470 +569,10 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 742.246,
-          "y": 500.569,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Jumpthru",
-          "width": 0,
-          "x": 933.139,
-          "y": 300.692,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Jumpthru",
-          "width": 0,
-          "x": 755.6,
-          "y": 418,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Jumpthru",
-          "width": 0,
-          "x": 847.908,
-          "y": 359.923,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1045,
-          "y": 268,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1115,
-          "y": 268,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 70,
-          "layer": "",
-          "locked": false,
-          "name": "TiledGrassPlatform",
-          "width": 4222.89,
-          "x": -583.046,
-          "y": 570,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 487.462,
-          "layer": "",
-          "locked": false,
-          "name": "TiledCastlePlatform",
-          "width": 502.923,
-          "x": -572.923,
-          "y": 83,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "MovingPlatform",
-          "width": 0,
-          "x": 1195.45,
-          "y": 297.615,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1890.68,
-          "y": 499.692,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1673.6,
-          "y": 289.692,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1673.6,
-          "y": 359.692,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1673.6,
-          "y": 499.692,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1673.6,
-          "y": 429.692,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1745.52,
-          "y": 499.385,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1745.52,
-          "y": 429.385,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1818.75,
-          "y": 499.692,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1817.75,
-          "y": 429.692,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoLeft",
-          "width": 0,
-          "x": 1667.37,
-          "y": 291.246,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoRight",
-          "width": 0,
-          "x": 1176.98,
-          "y": 295.169,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 2974.06,
-          "y": 247,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 2593.6,
-          "y": 500.231,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 2665.83,
-          "y": 430.231,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 2665.6,
-          "y": 499.769,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 1745.52,
-          "y": 359.385,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "PlayerHitBox",
           "width": 0,
           "x": 49.2766,
           "y": 291.738,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 194,
-          "y": 500.569,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "SlimeWalk",
-          "width": 0,
-          "x": 687.677,
-          "y": 527.461,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "SlimeWalk",
-          "width": 0,
-          "x": 286.2,
-          "y": 528.461,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1074,251 +614,6 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Cloud",
-          "width": 0,
-          "x": 2181.78,
-          "y": 59.0157,
-          "zOrder": -2,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 2
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Cloud",
-          "width": 0,
-          "x": 151.785,
-          "y": 182.016,
-          "zOrder": -2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Cloud",
-          "width": 0,
-          "x": 530.784,
-          "y": 312.015,
-          "zOrder": -2,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Cloud",
-          "width": 0,
-          "x": 1480.78,
-          "y": 134.016,
-          "zOrder": -2,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 2
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Cloud",
-          "width": 0,
-          "x": 2078.78,
-          "y": 385.016,
-          "zOrder": -2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Cloud",
-          "width": 0,
-          "x": 1847.78,
-          "y": 164.016,
-          "zOrder": -2,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Cloud",
-          "width": 0,
-          "x": 1258.78,
-          "y": 357.015,
-          "zOrder": -2,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Cloud",
-          "width": 0,
-          "x": 664.784,
-          "y": 170.016,
-          "zOrder": -2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BackgroundObjects",
-          "width": 0,
-          "x": 2078.57,
-          "y": 503.108,
-          "zOrder": -1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 61,
-          "layer": "",
-          "locked": false,
-          "name": "BackgroundObjects",
-          "width": 66,
-          "x": 1736.78,
-          "y": 298.016,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 2
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BackgroundObjects",
-          "width": 0,
-          "x": 611.785,
-          "y": 505.015,
-          "zOrder": -2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BackgroundObjects",
-          "width": 94,
-          "x": 1249.78,
-          "y": 500.015,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BackgroundObjects",
-          "width": 0,
-          "x": 536.785,
-          "y": 503.015,
-          "zOrder": -2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BackgroundObjects",
-          "width": 0,
-          "x": 925.784,
-          "y": 505.015,
-          "zOrder": -1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "BackgroundObjects",
           "width": 0,
           "x": 1413.78,
@@ -1335,86 +630,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 47,
-          "layer": "",
-          "locked": false,
-          "name": "BackgroundObjects",
-          "width": 58,
-          "x": 1371.78,
-          "y": 524.016,
-          "zOrder": -1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 2
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 47,
-          "layer": "",
-          "locked": false,
-          "name": "BackgroundObjects",
-          "width": 58,
-          "x": 1435.78,
-          "y": 525.016,
-          "zOrder": -1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 2
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 47,
-          "layer": "",
-          "locked": false,
-          "name": "BackgroundObjects",
-          "width": 58,
-          "x": 1756.78,
-          "y": 314.016,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 2
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "BackgroundObjects",
-          "width": 0,
-          "x": -43,
-          "y": 501,
-          "zOrder": 1,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 1
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "GUI",
@@ -1423,186 +638,6 @@
           "width": 0,
           "x": 66,
           "y": 4,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "GUI",
-          "locked": false,
-          "name": "CoinIcon",
-          "width": 0,
-          "x": 21,
-          "y": 11,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 1960,
-          "y": 420,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 210,
-          "y": 420,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 490,
-          "y": 490,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 420,
-          "y": 490,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 773.846,
-          "y": 359.816,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 859.831,
-          "y": 296.262,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 953.292,
-          "y": 241.431,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 350,
-          "y": 490,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoRight",
-          "width": 0,
-          "x": 1145.78,
-          "y": 205.016,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoLeft",
-          "width": 0,
-          "x": 1704.78,
-          "y": 206.016,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoRight",
-          "width": 0,
-          "x": 2593.78,
-          "y": 369.016,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1633,156 +668,6 @@
           "width": 0,
           "x": 3103.78,
           "y": 354.016,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 2834.06,
-          "y": 247,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Platform",
-          "width": 0,
-          "x": 2904.06,
-          "y": 247,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 2992,
-          "y": 192,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 2849,
-          "y": 194,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 2921,
-          "y": 193,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "SlimeWalk",
-          "width": 0,
-          "x": 2526,
-          "y": 530,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "SlimeWalk",
-          "width": 0,
-          "x": 1983,
-          "y": 525,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Fly",
-          "width": 0,
-          "x": 1655.78,
-          "y": 190.016,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoRight",
-          "width": 0,
-          "x": 265.877,
-          "y": 545.185,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "GoLeft",
-          "width": 0,
-          "x": 732.6,
-          "y": 544.185,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -1836,13 +721,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 107.992,
-          "layer": "GUI",
+          "height": 70,
+          "layer": "",
           "locked": false,
-          "name": "JumpButton",
-          "width": 107.992,
-          "x": 659,
-          "y": 457,
+          "name": "TiledGrassPlatform",
+          "width": 779,
+          "x": -8,
+          "y": 594,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -1850,51 +735,54 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 70,
           "layer": "",
           "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 1820,
-          "y": 280,
-          "zOrder": 1,
+          "name": "TiledGrassPlatform",
+          "width": 779,
+          "x": -2,
+          "y": 582,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 70,
           "layer": "",
           "locked": false,
-          "name": "Coin",
-          "width": 0,
-          "x": 1890,
-          "y": 350,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": -90,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "HoleLight",
-          "width": 0,
-          "x": 461.711,
-          "y": 396.69,
-          "zOrder": 25,
+          "name": "TiledGrassPlatform",
+          "width": 779,
+          "x": 998,
+          "y": 588,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
       "objects": [
+        {
+          "height": 70,
+          "name": "TiledGrassPlatform",
+          "tags": "",
+          "texture": "grassHalfMid.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 70,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            }
+          ]
+        },
         {
           "name": "Player",
           "tags": "",
@@ -2194,6 +1082,72 @@
           ]
         },
         {
+          "name": "Jumpthru",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "Jumpthru",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "bridgeLogs.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Platform",
           "tags": "",
           "type": "Sprite",
@@ -2304,90 +1258,6 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "name": "Jumpthru",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": true,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "Jumpthru",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "bridgeLogs.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "height": 70,
-          "name": "TiledGrassPlatform",
-          "tags": "",
-          "texture": "grassHalfMid.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 70,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
             }
           ]
         },
