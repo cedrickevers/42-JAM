@@ -471,15 +471,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Hole-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Hole-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "grassHalfMid-1.png",
         "kind": "image",
         "metadata": "",
@@ -664,6 +655,15 @@
         "kind": "image",
         "metadata": "",
         "name": "res/rock/RockTileDarkTileset/ground/middle/cropped_20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Hole-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hole-1.png",
         "smoothed": true,
         "userAdded": true
       }
@@ -1095,6 +1095,16 @@
           ]
         }
       ]
+    },
+    {
+      "height": 32,
+      "name": "HoleLine",
+      "tags": "",
+      "texture": "Hole-1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "behaviors": []
     }
   ],
   "objectsGroups": [],
@@ -1124,7 +1134,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.73
+        "zoomFactor": 0.682
       },
       "objectsGroups": [
         {
@@ -1256,21 +1266,6 @@
           "locked": false,
           "name": "RockMiddle",
           "width": 0,
-          "x": 832,
-          "y": 448,
-          "zOrder": 31,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "RockMiddle",
-          "width": 0,
           "x": -64,
           "y": 448,
           "zOrder": 32,
@@ -1289,6 +1284,21 @@
           "x": -352,
           "y": 512,
           "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "HoleLine",
+          "width": 4704,
+          "x": -1856,
+          "y": 896,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3163,43 +3173,6 @@
         },
         {
           "height": 32,
-          "name": "RockUp",
-          "tags": "",
-          "texture": "res/rock/RockTileDarkTileset/cropped_3.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            },
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ]
-        },
-        {
-          "height": 32,
-          "name": "RockMiddleMiddleRight",
-          "tags": "",
-          "texture": "res/rock/RockTileDarkTileset/cropped_14.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ]
-        },
-        {
-          "height": 32,
           "name": "RockMiddleLeft",
           "tags": "",
           "texture": "res/rock/RockTileDarkTileset/ground/top/cropped_12.png",
@@ -3257,24 +3230,6 @@
           "name": "RockGroundTopRight",
           "tags": "",
           "texture": "res/rock/RockTileDarkTileset/ground/top/cropped_15.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ]
-        },
-        {
-          "height": 32,
-          "name": "RockGroundTopLeft",
-          "tags": "",
-          "texture": "res/rock/RockTileDarkTileset/ground/top/cropped_12.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 32,
           "variables": [],
@@ -4124,7 +4079,7 @@
       "layers": [
         {
           "name": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [
             {
               "defaultSize": true,
@@ -4189,7 +4144,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 1.042
+        "zoomFactor": 0.13
       },
       "objectsGroups": [
         {
@@ -4279,6 +4234,21 @@
           "x": 32,
           "y": 160,
           "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "HoleLine",
+          "width": 4704,
+          "x": -1920,
+          "y": 960,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6417,7 +6387,7 @@
       "layers": [
         {
           "name": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [
             {
               "defaultSize": true,
@@ -6452,10 +6422,6 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior"
-        },
-        {
           "name": "Platform",
           "type": "PlatformBehavior::PlatformBehavior"
         },
@@ -6489,7 +6455,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.922
+        "zoomFactor": 0.202
       },
       "objectsGroups": [
         {
@@ -6599,6 +6565,21 @@
           "x": -256,
           "y": 480,
           "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "HoleLine",
+          "width": 4480,
+          "x": -1632,
+          "y": 800,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8281,16 +8262,6 @@
             }
           ],
           "behaviors": []
-        },
-        {
-          "height": 32,
-          "name": "Hole",
-          "tags": "",
-          "texture": "Hole-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
         }
       ],
       "events": [
@@ -9183,7 +9154,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 1.066
+        "zoomFactor": 0.466
       },
       "objectsGroups": [
         {
@@ -9330,6 +9301,21 @@
           "x": -160,
           "y": 224,
           "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "HoleLine",
+          "width": 4480,
+          "x": -1792,
+          "y": 928,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10858,16 +10844,6 @@
             }
           ],
           "behaviors": []
-        },
-        {
-          "height": 32,
-          "name": "Hole",
-          "tags": "",
-          "texture": "Hole-1.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "behaviors": []
         }
       ],
       "events": [
@@ -11864,8 +11840,8 @@
           "layer": "",
           "locked": false,
           "name": "RockGroundTopLeftM",
-          "width": 704,
-          "x": -416,
+          "width": 1056,
+          "x": -800,
           "y": 512,
           "zOrder": 25,
           "numberProperties": [],
@@ -11911,6 +11887,21 @@
               "value": "1"
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "locked": false,
+          "name": "HoleLine",
+          "width": 4704,
+          "x": -1760,
+          "y": 960,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -14301,6 +14292,57 @@
         {
           "disabled": false,
           "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Dead by falling",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "PlayerHitBox",
+                "HoleLine",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"GameOver\"",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Enemy",
           "conditions": [],
@@ -14854,7 +14896,20 @@
                       "subInstructions": []
                     }
                   ],
-                  "actions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"GameOver\"",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
                   "events": []
                 }
               ]
