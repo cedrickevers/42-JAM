@@ -1119,6 +1119,190 @@
       "width": 32,
       "variables": [],
       "behaviors": []
+    },
+    {
+      "name": "LeftButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "shadedDark05.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RightButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "shadedDark06.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "JumpButton",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": true,
+      "variables": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 2,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 2
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "shadedDark45.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsGroups": [],
@@ -1148,20 +1332,9 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.202
+        "zoomFactor": 0.898
       },
       "objectsGroups": [
-        {
-          "name": "Enemy",
-          "objects": [
-            {
-              "name": "SlimeWalk"
-            },
-            {
-              "name": "Fly"
-            }
-          ]
-        },
         {
           "name": "VirtualControls",
           "objects": [
@@ -1173,9 +1346,6 @@
             },
             {
               "name": "JumpButton"
-            },
-            {
-              "name": "ArrowButtonsBg"
             }
           ]
         }
@@ -1223,66 +1393,6 @@
           "x": 992,
           "y": 448,
           "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 288,
-          "layer": "",
-          "locked": false,
-          "name": "RockMiddle",
-          "width": 1376,
-          "x": -288,
-          "y": 480,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 704,
-          "layer": "",
-          "locked": false,
-          "name": "RockMiddle",
-          "width": 224,
-          "x": -288,
-          "y": -224,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 704,
-          "layer": "",
-          "locked": false,
-          "name": "RockMiddle",
-          "width": 224,
-          "x": 864,
-          "y": -224,
-          "zOrder": 29,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "RockMiddle",
-          "width": 0,
-          "x": -64,
-          "y": 448,
-          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2838,190 +2948,6 @@
           ]
         },
         {
-          "name": "LeftButton",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": true,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "shadedDark05.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "RightButton",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": true,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "shadedDark06.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "JumpButton",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": true,
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Anchor",
-              "type": "AnchorBehavior::AnchorBehavior",
-              "bottomEdgeAnchor": 0,
-              "leftEdgeAnchor": 2,
-              "relativeToOriginalWindowSize": true,
-              "rightEdgeAnchor": 0,
-              "topEdgeAnchor": 2
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 1,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "shadedDark45.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 0,
-                            "y": 0
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "ArrowButtonsBg",
           "tags": "",
           "type": "Sprite",
@@ -3420,6 +3346,30 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "VirtualController:",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "VirtualController"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Coin winning flag",
           "comment2": ""
         },
@@ -3615,6 +3565,12 @@
             }
           ],
           "effects": []
+        },
+        {
+          "name": "Controls",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -3660,7 +3616,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.682
+        "zoomFactor": 0.61
       },
       "objectsGroups": [
         {
@@ -5230,6 +5186,30 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "VirtualController:",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "VirtualController"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Coin winning flag",
           "comment2": ""
         },
@@ -5424,6 +5404,12 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "name": "Controls",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
@@ -7433,6 +7419,30 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "VirtualController:",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "VirtualController"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Coin winning flag",
           "comment2": ""
         },
@@ -7628,6 +7638,12 @@
             }
           ],
           "effects": []
+        },
+        {
+          "name": "Controls",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -7669,7 +7685,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.466
+        "zoomFactor": 0.202
       },
       "objectsGroups": [
         {
@@ -9523,6 +9539,30 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "VirtualController:",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "VirtualController"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Coin winning flag",
           "comment2": ""
         },
@@ -9718,6 +9758,12 @@
             }
           ],
           "effects": []
+        },
+        {
+          "name": "Controls",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -9759,7 +9805,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": true,
-        "zoomFactor": 0.37
+        "zoomFactor": 0.202
       },
       "objectsGroups": [
         {
@@ -11281,6 +11327,30 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "VirtualController:",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "VirtualController"
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Coin winning flag",
           "comment2": ""
         },
@@ -11475,6 +11545,12 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "name": "Controls",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
@@ -13230,9 +13306,392 @@
           "events": []
         }
       ]
+    },
+    {
+      "associatedLayout": "Level1",
+      "lastChangeTimeStamp": 0,
+      "name": "VirtualController",
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Load virtualcontroller only if we are on a phone",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SystemInfo::IsMobile"
+              },
+              "parameters": [],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinExternalLayouts::CreateObjectsFromExternalLayout"
+                  },
+                  "parameters": [
+                    "",
+                    "\"VirtualController\"",
+                    "0",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "VirtualControls",
+                        "=",
+                        "150"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "RightButton",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateLeftKey"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "LeftButton",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateRightKey"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "JumpButton",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlatformBehavior::SimulateJumpKey"
+                      },
+                      "parameters": [
+                        "PlayerHitBox",
+                        "PlatformerObject"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Player",
+                                "=",
+                                "0"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Animation"
+                              },
+                              "parameters": [
+                                "Player",
+                                "=",
+                                "2"
+                              ],
+                              "subInstructions": []
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "jump.wav",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "eventsFunctionsExtensions": [],
-  "externalLayouts": [],
+  "externalLayouts": [
+    {
+      "associatedLayout": "Level1",
+      "name": "VirtualController",
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "Controls",
+          "locked": false,
+          "name": "JumpButton",
+          "width": 192,
+          "x": 576,
+          "y": 384,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "Controls",
+          "locked": false,
+          "name": "LeftButton",
+          "width": 160,
+          "x": 256,
+          "y": 416,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "Controls",
+          "locked": false,
+          "name": "RightButton",
+          "width": 160,
+          "x": 32,
+          "y": 416,
+          "zOrder": 100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "editionSettings": {
+        "grid": true,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.928
+      }
+    }
+  ],
   "externalSourceFiles": []
 }
