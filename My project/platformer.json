@@ -13592,18 +13592,6 @@
                       "parameters": [
                         "Player",
                         "=",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Animation"
-                      },
-                      "parameters": [
-                        "Player",
-                        "=",
                         "2"
                       ],
                       "subInstructions": []
