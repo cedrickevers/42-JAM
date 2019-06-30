@@ -1,0 +1,13 @@
+{
+    "name": "platformer",
+    "main": "main.js",
+    "productName": "Platformer",
+    "description": "Platformer",
+    "author": "",
+    "version": "1.0.0",
+    "dependencies": {},
+    "devDependencies": {
+      "electron": "2.0.7"
+    }
+  }
+  
